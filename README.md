@@ -1,14 +1,11 @@
 # weRateDogs_tweets_analysis
 Analysing Dog rating tweets from the @WerateDogs twitter account
 
+The data used in this analysis were gotten from three different sources
 
-
-Reporting: wrangle_report
-The data used in this analysis was gotten from three different sources
-
-A csv(comma separated values) file Twitter archive dataset which was readily available in the local environment named df_archive
-A tsv (Tab separated values) file holding predictions data of tweets from the @WeRateDogs twitter account. The Dataframe was named df_pred
-Data gotten through the twitter API using the tweepy library. it was named df_twt
+A csv(comma separated values) file Twitter archive dataset which was publicly available - df_archive  
+A tsv (Tab separated values) file holding predictions data of image classification of dog and their breed - df_pred 
+Data gotten through the twitter API using the tweepy library- df_twt  
 Since the data were from different sources. it was expected to have some issues of data cleanliness. Having that in mind, i merged the 3 dataframes into 1 and named it df_master using their common attribute which is the tweet_id. The df_master was assessed programatically and visually to check for issues of quality and tidiness. Some of the issues discovered are highlighted below:
 
 - Missing data
