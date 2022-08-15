@@ -1,5 +1,5 @@
 # weRateDogs_tweets_analysis
-Analysing Dog rating tweets from the @WerateDogs twitter account
+Analyzing Dog rating tweets from the @WerateDogs twitter account
 
 The data used in this analysis were gotten from three different sources
 
